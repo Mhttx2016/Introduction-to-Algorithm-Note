@@ -43,3 +43,22 @@ a table so that we do not have to reconstruct this information from the costs th
 stored.
 
 >**Memoization:** A memoized recursive algorithm maintains an entry in a table for the solution to each subproblem.
+
+	MEMOIZED-MATRIX-CHAIN(p):
+		LOOKUP-CHAIN(m,p,i,j):
+	'''
+		Function: A memoized recursive algorithm maintains an entry 
+		in a table for the solution to each subproblem.
+		
+		Algorithm: Each table entry initially contains a special value to 
+		indicate that the entry has yet to be filled in. When the subproblem
+		is first encountered as the recursive algorithm unfolds, 
+		its solution is computed and then stored in the table.Each subsequent
+		time that we encounter this subproblem, we simply look up the 
+		value stored in the table and return it.
+		
+		Runtime:O(n^3)
+	'''
+	
+## 15.4 Longest common subsequence
+
