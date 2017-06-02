@@ -43,5 +43,3 @@ a table so that we do not have to reconstruct this information from the costs th
 stored.
 
 >**Memoization:** A memoized recursive algorithm maintains an entry in a table for the solution to each subproblem.
-
-![image](https://github.com/Mhttx2016/Introduction-to-Algorithm-Note/tree/master/pictures/1.jpg)
